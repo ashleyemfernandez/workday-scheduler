@@ -21,7 +21,7 @@ $(document).ready(function () {
      
       $(".time-block").each(function () {
           var timeBlock = parseInt($(this).attr("id").split("hour")[1]);
-          console.log( blockHour, currentHour)
+          console.log(timeBlock, currentHour)
 
           if (timeBlock < currentHour) {
               $(this).addClass("past");
